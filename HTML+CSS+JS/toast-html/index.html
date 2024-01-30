@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Example of Toast</title>
+  </head>
+  <body>
+    <button onclick="successMessage()">Success</button>
+    <button onclick="warningMessage()">Warning</button>
+    <button onclick="errorMessage()">Error</button>
+  </body>
+  <!-- For Alert  -->
+
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script>
+    const Toast = Swal.mixin({
+      toast: true,
+      position: "top-end",
+      width: 280,
+      showConfirmButton: false,
+      timer: 3000,
+      timerProgressBar: true,
+      didOpen: (toast) => {
+        toast.addEventListener("mouseenter", Swal.stopTimer);
+        toast.addEventListener("mouseleave", Swal.resumeTimer);
+      },
+    });
+
+    // Success Message
+    function successMessage() {
+      Toast.fire({
+        icon: "success",
+        title: "Successfully Deleted",
+        background: "#D4EDDA",
+      });
+    }
+
+    // Waring Message
+    function warningMessage() {
+      Toast.fire({
+        icon: "warning",
+        title: "UNSUCCESFULL!",
+        background: "#FFF3CD",
+      });
+    }
+
+    // Error Message
+    function errorMessage() {
+      Toast.fire({
+        icon: "error",
+        title: "UNSUCCESFULL!",
+        background: "#FFF3CD",
+        color: "red",
+      });
+    }
+  </script>
+
+</html>

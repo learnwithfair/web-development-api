@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Copy text</title>
+   
+  </head>
+  <body>
+    <table>
+      <thead>
+        <tr>
+          <th scope="col">Name</th>
+          <th scope="col">GPA</th>
+          <th scope="col">URL</th>
+          <th scope="col">Action</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>MD RAHATUL RABBI</td>
+          <td>3.50</td>
+          <td>http://instagram.com/mdrahatulrabbi</td>
+          <td>
+            <button type="button" class="copybtn">Copy</button>
+          </td>
+        </tr>
+        <tr>
+          <td>MD RAHATUL</td>
+          <td>3.60</td>
+          <td>http://facebook.com/mdrahatulrabbi</td>
+          <td>
+            <button type="button" class="copybtn">Copy</button>
+          </td>
+        </tr>
+        <tr>
+          <td>MD RABBI</td>
+          <td>3.80</td>
+          <td>http://youtube.com/mdrahatulrabbi</td>
+          <td>
+            <button type="button" class="copybtn">Copy</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+
+  <!-- FOR COPY START  -->
+  <!-- For Toast -->
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <!-- For jquery  -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $(".copybtn").on("click", function () {
+        // For copy clipboard
+
+        // Get data from table column
+        $tr = $(this).closest("tr");
+        var data = $tr
+          .children("td")
+          .map(function () {
+            return $(this).text();
+          })
+          .get();
+
+        // Copy text
+        navigator.clipboard.writeText(data[2]);
+
+        // For copied Toast
+        const Toast = Swal.mixin({
+          toast: true,
+          position: "center",
+          width: 150,
+          showConfirmButton: false,
+          timer: 1000,
+          timerProgressBar: false,
+          didOpen: (toast) => {
+            toast.addEventListener("mouseenter", Swal.stopTimer);
+            toast.addEventListener("mouseleave", Swal.resumeTimer);
+          },
+        });
+
+        Toast.fire({
+          title: "Copied",
+          background: "#D4EDDA",
+        });
+      });
+    });
+  </script>
+  <!-- /FOR COPY END  -->
+</html>

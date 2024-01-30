@@ -4,7 +4,8 @@
 - To show result set Toast use sweetalert2.
 
 ### For More
-Visit -> https://sweetalert2.github.io/
+- Visit -> https://releases.jquery.com/
+- Visit -> https://sweetalert2.github.io/
 
 
 ## Link jQuery & Toast

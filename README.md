@@ -2,12 +2,15 @@
 
 ### HTML + JS
 - [Preloader](https://github.com/learnwithfair/web-development-api/tree/main/HTML%2BCSS%2BJS/preloader-html)
-- Toast
+- [Toast](https://github.com/learnwithfair/web-development-api/tree/main/HTML%2BCSS%2BJS/toast-html)
+
 
 ### jQuery
-- Copy Text
-- Modal
+
+- [Copy Text](https://github.com/learnwithfair/web-development-api/tree/main/jQuery/copy-text-jquery)
+- [Modal](https://github.com/learnwithfair/web-development-api/tree/main/jQuery/modal-jquery)
+
 
 ### PHP
-- Preloader
+- [Preloader](https://github.com/learnwithfair/web-development-api/tree/main/PHP/preloader-php)
 

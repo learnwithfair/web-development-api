@@ -86,3 +86,10 @@ $result = unlink( "uploads/csv-files/$csv_file_name" );
       crossorigin="anonymous"
     ></script>
 ```
+
+## CSV File Structure 
+
+|   |
+|:---:|
+|CSV File Demo|
+|![structure](https://github.com/learnwithfair/web-development-api/tree/main/PHP/csv-php/Screenshot.png)|

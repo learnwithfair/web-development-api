@@ -1,10 +1,39 @@
-## Data-table with jQuery
+## CSV file Read
 
-- To design table use Bootstrap-4.
-- To Sort data use jQuery.
+In this following PHP code, you can read csv file and store in the mysqli database in your website easily.
 
-## For more
-* Visit-> https://getbootstrap.com/
+## Initialization Process
+- To Initial variable
+```
+$CSVvar = false;
+```
+- To Upload CSV File
+```
+$csv_file_name = $_FILES['csv-file']['name'];
+$csv_tmp_name = $_FILES['csv-file']['tmp_name'];
+
+$result = move_uploaded_file( $csv_tmp_name, "directoryName" . $csv_file_name );
+```
+
+- To open CSV File
+```
+$CSVvar = fopen( "FileNameWthPathName", "r" );
+```
+
+- To Read CSV File
+```
+while ( !feof( $CSVvar ) ) {
+        $data = fgetcsv( $CSVvar, 1000, "," );
+        echo $data[0];
+}
+```
+
+- To Delete CSV File
+```
+$csv_file_name = $_FILES['csv-file']['name'];
+$result = unlink( "uploads/csv-files/$csv_file_name" );
+```
+
 
 ## Link jQuery & Bootstrap
 

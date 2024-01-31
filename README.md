@@ -1,8 +1,13 @@
 ## Web Development Tools 
 
 ### HTML + JS
-- [Preloader](https://github.com/learnwithfair/web-development-api/tree/main/HTML%2BCSS%2BJS/preloader-html)
-- [Toast](https://github.com/learnwithfair/web-development-api/tree/main/HTML%2BCSS%2BJS/toast-html)
+
+<details>
+  <summary>Show More</summary>
+ - [Preloader](https://github.com/learnwithfair/web-development-api/tree/main/HTML%2BCSS%2BJS/preloader-html)
+ - [Toast](https://github.com/learnwithfair/web-development-api/tree/main/HTML%2BCSS%2BJS/toast-html)
+</details>
+
 
 
 ### jQuery

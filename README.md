@@ -2,11 +2,8 @@
 
 ### HTML + JS
 
-<details>
-  <summary>Show More</summary>
- - [Preloader](https://github.com/learnwithfair/web-development-api/tree/main/HTML%2BCSS%2BJS/preloader-html)
- - [Toast](https://github.com/learnwithfair/web-development-api/tree/main/HTML%2BCSS%2BJS/toast-html)
-</details>
+- [Preloader](https://github.com/learnwithfair/web-development-api/tree/main/HTML%2BCSS%2BJS/preloader-html)
+- [Toast](https://github.com/learnwithfair/web-development-api/tree/main/HTML%2BCSS%2BJS/toast-html)
 
 
 
@@ -14,6 +11,7 @@
 
 - [Copy Text](https://github.com/learnwithfair/web-development-api/tree/main/jQuery/copy-text-jquery)
 - [Modal](https://github.com/learnwithfair/web-development-api/tree/main/jQuery/modal-jquery)
+- [Data-table](https://github.com/learnwithfair/web-development-api/tree/main/jQuery/datatable-jquery)
 
 
 ### PHP

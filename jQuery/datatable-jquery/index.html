@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Data table Example</title>
+    <!-- For bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <!-- For Datatable  -->
+    <link
+      href="https://cdn.datatables.net/1.10.20/css/dataTables.bootstrap4.min.css"
+      rel="stylesheet"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="card mb-4">
+      <div class="card-header">
+        <h4><i class="fas fa-user-plus mr-1"></i>Table Title</h4>
+        <div></div>
+      </div>
+      <div class="card-body">
+        <div class="table-responsive">
+          <table
+            class="table table-bordered"
+            id="dataTable"
+            width="100%"
+            cellspacing="0"
+          >
+            <thead>
+              <tr>
+                <th scope="col">S/N</th>
+                <th scope="col">ID</th>
+                <th scope="col">Name</th>
+                <th scope="col">CGPA</th>
+              </tr>
+            </thead>
+            <tfoot>
+              <tr>
+                <th scope="col">S/N</th>
+                <th scope="col">ID</th>
+                <th scope="col">Name</th>
+                <th scope="col">CGPA</th>
+              </tr>
+            </tfoot>
+
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>101</td>
+                <td>Mr. A</td>
+                <td>3.56</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>102</td>
+                <td>Mr. B</td>
+                <td>3.56</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>103</td>
+                <td>Mr. C</td>
+                <td>3.56</td>
+              </tr>
+              <tr>
+                <td>4</td>
+                <td>104</td>
+                <td>Mr. D</td>
+                <td>3.56</td>
+              </tr>
+              <tr>
+                <td>5</td>
+                <td>105</td>
+                <td>Mr. E</td>
+                <td>3.56</td>
+              </tr>
+              <tr>
+                <td>6</td>
+                <td>106</td>
+                <td>Mr. F</td>
+                <td>3.56</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <!-- For jquery Access  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $("#dataTable").DataTable({
+          order: [[1, "asc"]],
+        });
+      });
+    </script>
+    <!-- For Datatable   -->
+    <script
+      src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.datatables.net/1.10.20/js/dataTables.bootstrap4.min.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

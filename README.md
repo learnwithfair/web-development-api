@@ -3,6 +3,7 @@
 ### HTML + JS
 
 - [Bootstrap](https://github.com/learnwithfair/web-development-api/tree/main/HTML%2BCSS%2BJS/bootstrap-html)
+- [Icon](https://github.com/learnwithfair/web-development-api/tree/main/HTML%2BCSS%2BJS/icon-html)
 - [Preloader](https://github.com/learnwithfair/web-development-api/tree/main/HTML%2BCSS%2BJS/preloader-html)
 - [Toast](https://github.com/learnwithfair/web-development-api/tree/main/HTML%2BCSS%2BJS/toast-html)
 

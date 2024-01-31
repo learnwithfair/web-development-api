@@ -3,6 +3,8 @@
 - To design table use Bootstrap-4.
 - To Sort data use jQuery.
 
+## For more
+* Visit-> https://getbootstrap.com/
 
 ## Link jQuery & Bootstrap
 
@@ -17,7 +19,7 @@
     />
 ```
 
-+ Initialize in the Footer Section For Datatable
++ Initialize in the Header Section For Datatable
 
 ```
      <link

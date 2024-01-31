@@ -92,4 +92,4 @@ $result = unlink( "uploads/csv-files/$csv_file_name" );
 |   |
 |:---:|
 |CSV File Demo|
-|![structure](https://github.com/learnwithfair/web-development-api/tree/main/PHP/csv-php/Screenshot.png)|
+|![structure](https://github.com/learnwithfair/web-development-api/blob/main/PHP/csv-php/Screenshot.png)|

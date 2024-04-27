@@ -30,3 +30,4 @@
 
 - [Nestead Function Call](https://github.com/learnwithfair/web-development-api/tree/main/React-js/nestead-function-call)
 - [bootstrap-table-with-filtering](https://github.com/learnwithfair/web-development-api/tree/main/React-js/bootstrap-table-with-filtering)
+- [React Bootstrap Modal](https://github.com/learnwithfair/web-development-api/tree/main/React-js/modal-demo)

@@ -7,7 +7,6 @@
 - [Preloader](https://github.com/learnwithfair/web-development-api/tree/main/HTML%2BCSS%2BJS/preloader-html)
 - [Toast](https://github.com/learnwithfair/web-development-api/tree/main/HTML%2BCSS%2BJS/toast-html)
 - [Form Wih Pattern](https://github.com/learnwithfair/web-development-api/tree/main/HTML%2BCSS%2BJS/form-pattern-html)
-- [Form Field Outline & Placeholder](https://github.com/learnwithfair/web-development-api/tree/main/HTML%2BCSS%2BJS/form-field-outline-placholder)
 
 ### jQuery
 
@@ -19,14 +18,7 @@
 
 - [Preloader](https://github.com/learnwithfair/web-development-api/tree/main/PHP/preloader-php)
 - [CSV-Reader](https://github.com/learnwithfair/web-development-api/tree/main/PHP/csv-php)
-- [JWT-Token](https://github.com/learnwithfair/web-development-api/tree/main/PHP/jwt-token-php)
-- [Upload Files](https://github.com/learnwithfair/web-development-api/tree/main/PHP/upload)
 
 ### Node JS
 
 - [Payment Gateway](https://github.com/learnwithfair/web-development-api/tree/main/Node-js/sslcommerz-payment-gateway-nodejs)
-
-### React JS
-
-- [Nestead Function Call](https://github.com/learnwithfair/web-development-api/tree/main/React-js/nestead-function-call)
-- [bootstrap-table-with-filtering](https://github.com/learnwithfair/web-development-api/tree/main/React-js/bootstrap-table-with-filtering)

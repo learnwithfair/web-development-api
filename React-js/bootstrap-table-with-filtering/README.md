@@ -7,6 +7,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 1. npm i datatables.net-dt
 2. npm i jquery
 
+
 ## Initialize
 
 ```js
@@ -15,12 +16,15 @@ import "datatables.net-dt/css/dataTables.dataTables.min.css";
 import $ from "jquery";
 ```
 
-## Available Scripts
+## Run Project
 
 In the project directory, you can run:
+```js
+ npm install --force
+ npm start
+```
 
-### `npm start`
-
+## Available Script
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 

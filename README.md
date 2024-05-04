@@ -25,6 +25,9 @@
 ### Node JS
 
 - [Payment Gateway](https://github.com/learnwithfair/web-development-api/tree/main/Node-js/sslcommerz-payment-gateway-nodejs)
+- [Send Mail](https://github.com/learnwithfair/web-development-api/tree/main/Node-js/send-email-with-nodemailer)
+- [Sign-in with Google](https://github.com/learnwithfair/mern-google-authentication)
+- [Sign-in with Face](https://github.com/learnwithfair/mern-facebook-authentication)
 
 ### React JS
 

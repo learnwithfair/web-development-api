@@ -18,6 +18,14 @@ import "bootstrap/dist/css/bootstrap.min.css";
 ## For More 
 Visit-> https://react-bootstrap.netlify.app/docs/components/modal
 
+## Run Project
+
+In the project directory, you can run:
+```js
+ npm install --force
+ npm start
+```
+
 ## Available Scripts
 
 In the project directory, you can run:

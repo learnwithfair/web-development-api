@@ -14,7 +14,7 @@ Thanks for visiting my GitHub account!
 ## Documentation
 
 ================================== Send Email ==================================
-**For Email send**
+
 
 1. Install ->npm install nodemailer
 2. Copy the code form the website visit ->https://nodemailer.com/

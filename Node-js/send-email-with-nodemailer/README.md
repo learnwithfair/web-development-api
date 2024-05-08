@@ -17,10 +17,50 @@ Thanks for visiting my GitHub account!
 
 ```js
 npm install nodemailer
+npm i bcrypt
+npm i jsonwebtoken
+npm i dotenv
 
 ```
 
-- Step-2: helpers/email.js
+- Step-2:.env file
+
+```js
+
+
+JWT_ACCOUNT_ACTIVATION_KEY=
+SMTP_USERNAME=YOUR_GMAIL_HERE
+SMTP_PASSWORD=
+
+```
+
+- Step-3: config.js
+
+```js
+require("dotenv").config();
+
+const dev = {
+  db: {
+    mongoURL: process.env.MONGODB_URL || "mongodb://127.0.0.1:27017/blogDB",
+  },
+  app: {
+    port: process.env.SERVER_PORT || 8000,
+    jwtAccountActivationKey: process.env.JWT_ACCOUNT_ACTIVATION_KEY,
+    jwtResetPasswordKey: process.env.JWT_RESET_PASSWORD_KEY,
+    jwtAcessTokenKey: process.env.JWT_ACCESS_TOKEN_KEY,
+    jwtRefreshTokenKey: process.env.JWT_REFRESH_TOKEN_KEY,
+    smtpUsername: process.env.SMTP_USERNAME,
+    smtpPassword: process.env.SMTP_PASSWORD,
+    clientUrl: process.env.CLIENT_URL,
+    googleClientId: process.env.GOOGLE_CLIENT_ID,
+    googleClientSecret: process.env.GOOGLE_CLIENT_SECRET,
+  },
+};
+
+module.exports = dev;
+```
+
+- Step-4: helpers/email.js
 
 ```js
 const dev = require("../config");
@@ -55,7 +95,7 @@ exports.sendEmailWithNodeMailer = async (emailData) => {
 };
 ```
 
-- Step-2: controllers/auth.js( api/register)
+- Step-5: controllers/auth.js( api/register)
 
 ```js
 // api/register
@@ -100,7 +140,7 @@ const registerUser = async (req, res) => {
 };
 ```
 
-- Step-3: controllers/auth.js (api/activate-account)
+- Step-6: controllers/auth.js (api/activate-account)
 
 ```js
 // api/activate-account

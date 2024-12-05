@@ -31,6 +31,10 @@ Thanks for visiting my GitHub account!
 - [JWT-Token](https://github.com/learnwithfair/web-development-api/tree/main/PHP/jwt-token-php)
 - [Upload Files](https://github.com/learnwithfair/web-development-api/tree/main/PHP/upload)
 
+### Laravel
+
+- [Preloader](https://github.com/learnwithfair/web-development-api/tree/main/Laravel/loginManualAuthentication)
+
 ### Node JS
 
 - [Payment Gateway](https://github.com/learnwithfair/web-development-api/tree/main/Node-js/sslcommerz-payment-gateway-nodejs)

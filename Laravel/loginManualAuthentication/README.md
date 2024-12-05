@@ -16,7 +16,7 @@ Thanks for visiting my GitHub account!
 |       Roadmap       |
 | ![form](sigin-form.png) |
 
-- Step-1: Blade Template for Sign-In Page (resources/views/login.blade.php)
+- Step-1: Blade Template for Sign-In Page (resources/views/user_login.blade.php)
 
 ```bash
 

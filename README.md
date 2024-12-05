@@ -33,7 +33,7 @@ Thanks for visiting my GitHub account!
 
 ### Laravel
 
-- [Preloader](https://github.com/learnwithfair/web-development-api/tree/main/Laravel/loginManualAuthentication)
+- [Laravel-manual-signin-authentication](https://github.com/learnwithfair/web-development-api/tree/main/Laravel/loginManualAuthentication)
 
 ### Node JS
 

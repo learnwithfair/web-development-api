@@ -1,4 +1,4 @@
-# CSS-DOCUMENTATION
+# LARAVEL-MANUAL-SIGN-IIN-AUTHENTICATION
 
 [![Youtube][youtube-shield]][youtube-url]
 [![Facebook][facebook-shield]][facebook-url]
@@ -7,14 +7,14 @@
 
 Thanks for visiting my GitHub account!
 
-## Required Software (Download)
+
 
 ## Project Roadmap
 
 |                     |
 | :-----------------: |
 |       Roadmap       |
-| ![form](sigin-form) |
+| ![form](sigin-form.png) |
 
 - Step-1: Blade Template for Sign-In Page (resources/views/login.blade.php)
 
@@ -313,11 +313,6 @@ php artisan migrate
 - Access Login: Visit /user-login.
 - Access Home: After login, visit /home.
 
-## For More
-
-- [CSS Full Course with a project | Zero to Hero | English Tutorial](https://youtu.be/lXYo52yFLDk)
-- [CSS complete course Bangla (Beginner to Advanced)](https://youtube.com/playlist?list=PLgH5QX0i9K3qjCBXjTmv7Xeh8MDUUVJDO)
-- [CSS eCommerce Project Bangla](https://youtube.com/playlist?list=PLgH5QX0i9K3rsTE0J6lv99JsJHlPlIvSC)
 
 ## Follow Me
 

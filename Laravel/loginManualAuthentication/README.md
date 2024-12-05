@@ -139,7 +139,7 @@ create controller ->
 php artisan make:controller AuthController
 ```
 
-- Place the followin code in AuthController.php file
+- Place the following code in AuthController.php file
 
 ```bash 
 <?php
@@ -196,7 +196,7 @@ create controller ->
 php artisan make:middleware Authenticate
 ```
 
-- Place the followin code in Authenticate.php file
+- Place the following code in Authenticate.php file
 
 ```bash
 <?php
@@ -225,6 +225,19 @@ class Authenticate {
     }
 
 }
+
+```
+
+
+5. Initialize Middleware Globally (bootstrap\app.php)
+
+```bash
+ ->withMiddleware( function ( Middleware $middleware ) {
+        $middleware->alias( array(
+            'isLoggedIn' => \App\Http\Middleware\Authenticate::class,
+        ) );
+        //
+    } )
 
 ```
 

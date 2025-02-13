@@ -48,7 +48,18 @@ Thanks for visiting my GitHub account!
 - [bootstrap-table-with-filtering](https://github.com/learnwithfair/web-development-api/tree/main/React-js/bootstrap-table-with-filtering)
 - [React Bootstrap Modal](https://github.com/learnwithfair/web-development-api/tree/main/React-js/modal-demo)
 
+### WordPress (Plugin)
+1. **Sticky Buttons** -> Sticky Social Icon in the sidebar
+2.**Floating Notification Bar**, Sticky Menu on Scroll, Announcement Banner, and Sticky Header for Any Theme – My Sticky Bar (formerly myStickymenu)_> For Sticky Header 
+3. **Direct checkout**, Add to card redirect, Quick purchase button,
+- Ref: https://www.youtube.com/watch?v=KF9Orpo0VRI
+4. **For currency change**, Premmerce multi-currency for woocommerce
+- ref: https://www.youtube.com/watch?v=RIeSvuNC4rY
+5. Safelayout cute **Preloader** 
+- Ref: https://www.youtube.com/watch?v=Dz4rYuijgiM
 
+### API testing with Postman
+- https://jsonplaceholder.typicode.com/posts
 
 ## Follow Me
 

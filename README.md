@@ -50,13 +50,21 @@ Thanks for visiting my GitHub account!
 
 ### WordPress (Plugin)
 1. **Sticky Buttons** -> Sticky Social Icon in the sidebar
-2.**Floating Notification Bar**, Sticky Menu on Scroll, Announcement Banner, and Sticky Header for Any Theme – My Sticky Bar (formerly myStickymenu)_> For Sticky Header 
+2. **Floating Notification Bar**, Sticky Menu on Scroll, Announcement Banner, and Sticky Header for Any Theme
+– My Sticky Bar (formerly myStickymenu)
 3. **Direct checkout**, Add to card redirect, Quick purchase button,
 - Ref: https://www.youtube.com/watch?v=KF9Orpo0VRI
 4. **For currency change**, Premmerce multi-currency for woocommerce
 - ref: https://www.youtube.com/watch?v=RIeSvuNC4rY
 5. Safelayout cute **Preloader** 
 - Ref: https://www.youtube.com/watch?v=Dz4rYuijgiM
+6. **For sticky header**
+- ElementsKit Lite
+- Sticky Header Effeccts for Elementor 
+- ref-> https://www.youtube.com/watch?v=WN_cYl0e-PQ
+7. **For scrollable Image**
+- HT mega-absollute addons for elementor 
+- ref-> https://www.youtube.com/watch?v=qg1VSLqdc8Y
 
 ### API testing with Postman
 - https://jsonplaceholder.typicode.com/posts

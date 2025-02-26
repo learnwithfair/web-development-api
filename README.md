@@ -48,6 +48,43 @@ Thanks for visiting my GitHub account!
 - [bootstrap-table-with-filtering](https://github.com/learnwithfair/web-development-api/tree/main/React-js/bootstrap-table-with-filtering)
 - [React Bootstrap Modal](https://github.com/learnwithfair/web-development-api/tree/main/React-js/modal-demo)
 
+### Laravel Hosting Precedure
+
+1. .htaccess in Root directory
+
+```htaccess
+<IfModule mod_rewrite.c> 
+   RewriteEngine On
+   RewriteRule ^(.*)$ public/$1 [L]
+</IfModule>
+```
+2. .htaccess in public directory
+
+```htaccess
+<IfModule mod_rewrite.c>
+    <IfModule mod_negotiation.c>
+        Options -MultiViews -Indexes
+    </IfModule>
+
+    RewriteEngine On
+
+    # Handle Authorization Header
+    RewriteCond %{HTTP:Authorization} .
+    RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+
+    # Redirect Trailing Slashes If Not A Folder...
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_URI} (.+)/$
+    RewriteRule ^ %1 [L,R=301]
+
+    # Send Requests To Front Controller...
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^ index.php [L]
+</IfModule>
+
+```
+
 ### WordPress (Plugin)
 1. **Sticky Buttons** -> Sticky Social Icon in the sidebar
 2. **Floating Notification Bar**, Sticky Menu on Scroll, Announcement Banner, and Sticky Header for Any Theme

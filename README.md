@@ -85,7 +85,7 @@ Thanks for visiting my GitHub account!
 
 ```
 
-#### If you move all files in subfolder like peopleplus then only place below in root path  as-
+#### If you move all files in subfolder like peopleplus then only place below in public directory   as-
 
 ```htaccess
 <IfModule mod_rewrite.c>

@@ -85,6 +85,17 @@ Thanks for visiting my GitHub account!
 
 ```
 
+#### If you move all files in subfolder like peopleplus then only place below in root path  as-
+
+```htaccess
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    # Redirect everything to peopleplus/public/index.php
+    RewriteRule ^(.*)$ peopleplus/public/$1 [L]
+</IfModule>
+```
+
 ### WordPress (Plugin)
 1. **Sticky Buttons** -> Sticky Social Icon in the sidebar
 2. **Floating Notification Bar**, Sticky Menu on Scroll, Announcement Banner, and Sticky Header for Any Theme
